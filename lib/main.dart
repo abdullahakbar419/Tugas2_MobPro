@@ -250,8 +250,8 @@ class MyApp extends StatelessWidget {
                               Text(
                                 'Abdullah Akbar',
                                 style: TextStyle(
-                                  color: Colors.grey,
-                                ),
+                                    color: Colors.grey,
+                                    fontWeight: FontWeight.bold),
                               ),
                             ],
                           ),
@@ -261,11 +261,13 @@ class MyApp extends StatelessWidget {
                     Container(
                       margin: const EdgeInsets.fromLTRB(0, 5, 0, 0),
                       decoration: BoxDecoration(
-                          border: Border.all(
-                              color: const Color.fromRGBO(117, 87, 153, 1),
-                              width: 0.5,
-                              style: BorderStyle.solid),
-                          color: Colors.white),
+                        border: Border.all(
+                          color: const Color.fromRGBO(117, 87, 153, 1),
+                          width: 0.5,
+                          style: BorderStyle.solid,
+                        ),
+                        color: Colors.white,
+                      ),
                     ),
                     const SizedBox(
                       height: 10,
